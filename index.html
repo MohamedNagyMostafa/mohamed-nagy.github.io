@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic Profile - Your Name</title>
+    <title>Your Name - Academic Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- Header with Photo and Navigation -->
     <header>
         <div class="container">
             <div class="profile">
@@ -15,21 +17,19 @@
                 <h1>Your Name</h1>
                 <p>Academic Researcher | Your Field of Study</p>
             </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#videos">Videos</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
+    <!-- About Section -->
     <section id="about" class="container">
         <h2>About Me</h2>
         <p>
@@ -37,6 +37,7 @@
         </p>
     </section>
 
+    <!-- Publications Section -->
     <section id="publications" class="container">
         <h2>Publications</h2>
         <ul>
@@ -47,6 +48,7 @@
         </ul>
     </section>
 
+    <!-- Education Section -->
     <section id="education" class="container">
         <h2>Education</h2>
         <ul>
@@ -57,6 +59,7 @@
         </ul>
     </section>
 
+    <!-- Videos Section -->
     <section id="videos" class="container">
         <h2>Videos of My Work</h2>
         <div class="video-container">
@@ -65,13 +68,24 @@
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="container">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">Your LinkedIn Profile</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername">Your GitHub Profile</a></p>
+        <p>Feel free to reach out to me via email or connect with me on social media.</p>
+        <div class="contact-links">
+            <a href="mailto:your.email@example.com" class="contact-link">
+                <i class="fas fa-envelope"></i> your.email@example.com
+            </a>
+            <a href="https://www.linkedin.com/in/yourprofile" class="contact-link">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/yourusername" class="contact-link">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
             <p>&copy; 2023 Your Name. All rights reserved.</p>
